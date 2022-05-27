@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:controller="de.cardgame.controller.menu.LoginController" fx:id="bodyPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="904.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="loginPane" layoutX="730.0" layoutY="166.0" prefHeight="412.0" prefWidth="460.0" style="-fx-background-color: rgba(0, 0, 0, 0.75);;">
+         <children>
+            <JFXTextField fx:id="emailBox" focusColor="#c0c4d0" labelFloat="true" layoutX="74.0" layoutY="96.0" prefHeight="45.0" prefWidth="312.0" promptText="Email">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="passwordBox" focusColor="#c0c4d0" labelFloat="true" layoutX="74.0" layoutY="184.0" prefHeight="45.0" prefWidth="312.0" promptText="Password">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXCheckBox fx:id="remeberBox" layoutX="74.0" layoutY="254.0" text="Remember me" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXButton fx:id="loginBtn" buttonType="RAISED" layoutX="74.0" layoutY="323.0" onAction="#login" prefHeight="75.0" prefWidth="312.0" ripplerFill="#c0c4d0" text="Login" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

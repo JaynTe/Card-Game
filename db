@@ -1,0 +1,63 @@
+Basecards:
+	CardID: 
+	Name:	
+	Rare: 1-7 (0-6) / 0 = Commen, 1 = Uncommen, 2 = Magic, 3 = Epic, 4 = Legendary, 5 = Unique
+	Img: 
+	Lore: "" 
+	visualeffect: ["", "", ""]
+	Stats: "{
+			"cost":["", "", "", "", ""],
+			"playcost": "",
+			"life": ["", "", "", "", ""],
+			"atk": ["", "", "", "", ""],
+			"def": ["", "", "", "", ""]
+			}"
+
+	baseattribute: "{
+						"class": "",
+						"fraction": "",
+						"race": "";
+						"attribute": ["", ""],
+						"action": ["", ""]
+					}"
+	events: "{
+				"onSpawn": ["", ""],
+				"onKill": ["", ""],
+				"onDeath": ["", ""]
+			}"
+			
+			
+Usercards:
+	ID: 
+	CardID:	
+	Mint: A-F + Number
+	Level: 1-5 (0-4)
+	XP: 100
+	effect: 0-3 (0 = Keinen, 1 = silber, 2 = Gold, 3 = animiertes Bild)
+	history: "{
+				"createdAt":"unixtimestamp",
+				"createdFrom": "UserID",
+				"createdWith": "Crafted/Pack/...",
+				"gotFrom": "UserID",
+				"gotBy": "Won/Traded/...",
+				"gotAt": "unixtimestamp"
+			}"
+	owner: {
+				"holder": 1, (UserID)
+				"inPack": false
+			}
+	
+	
+Users:
+	UserID:
+	Username:
+	Email:
+	Password:
+  secretkey:
+	level: //
+	xp: //
+	Money:
+	PremiumMoney
+	createdAt:
+	emailverify:
+	cards: [id, id,id ]

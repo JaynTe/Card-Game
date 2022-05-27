@@ -1,0 +1,30 @@
+
+Interi Executioner - 5, epic
+        creature (interi), cost ?, pc 5, atk 6, life 4, amr 2
+        
+Interi  - 6, legendary
+        creature (interi), cost ?, pc 6, atk 4, life 4, amr 0
+                effect: Last Wish: Summon this Unit and suppress it
+                
+Vampire Aristocrat - 6, mystic
+        unit (Vampire), cost ?, pc 6, atk 5, life 4, amr 3
+                effect: When this unit kills an enemy unit, put it into your gravyard
+                
+Necromancy - 10, epic
+        boundspell (spell), cost ?, pc 10, 
+                effect: Summon a unit from your grveyard
+                
+Adept Nercomancer - 4, rare
+        unit (?), cost ?, pc 4, atk 3, life 3, amr 1
+                effect: Summon a 1 cost unit from your gy
+                
+Supreme Necromancer - 12, unique
+        unit (?), cost? pc 12, atk 4, life 6, amr 2
+                effect: summon 2 units with cost 3 or less from your gy
+        
+??? - 6, mystic
+        boundspell (spell), cost ?, pc 6,
+                effect: deal 7 dmg to an enemy unit
+                        onkill: draw a card
+
+Interi Warlord - 8, 
